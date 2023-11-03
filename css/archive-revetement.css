@@ -1,0 +1,67 @@
+.post-type-archive-revetement .page-header {
+  background-color: #446084;
+  min-height: 250px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-type-archive-revetement .page-header h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.revetement-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.revetement-card {
+  display: flex;
+}
+
+.revetement-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.revetement-card-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.revetement-card-content a {
+  display: block;
+  width: 25%;
+  color: #ffffff;
+  background-color: #446084;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 0px;
+  bottom: 10;
+  border-radius: 100px;
+}
+
+.revetement-card-content a:hover {
+  color: white;
+  background-color: #2d3f58;
+}
+
+.revetement-card-content a:active {
+  color: #ffffff;
+}
+
+.revetement-card-content a:visited {
+  color: #ffffff;
+}

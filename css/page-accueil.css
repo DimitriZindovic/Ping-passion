@@ -1,0 +1,15 @@
+.main-accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  background-color: #446084;
+  color: #ffffff;
+  height: 100%;
+}
+
+.main-accueil h4 {
+  border: 1px solid #ffffff;
+  padding: 10px;
+}

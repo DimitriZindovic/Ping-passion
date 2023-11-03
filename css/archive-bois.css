@@ -1,0 +1,67 @@
+.post-type-archive-bois .page-header {
+  background-color: #2c3e56;
+  min-height: 250px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-type-archive-bois .page-header h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.bois-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.bois-card {
+  display: flex;
+}
+
+.bois-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.bois-card-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bois-card-content a {
+  display: block;
+  width: 25%;
+  color: #ffffff;
+  background-color: #2c3e56;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 0px;
+  bottom: 10;
+  border-radius: 100px;
+}
+
+.bois-card-content a:hover {
+  color: white;
+  background-color: #446084;
+}
+
+.bois-card-content a:active {
+  color: #ffffff;
+}
+
+.bois-card-content a:visited {
+  color: #ffffff;
+}

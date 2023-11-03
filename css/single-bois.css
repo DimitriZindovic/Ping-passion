@@ -1,0 +1,28 @@
+.bois-single-card {
+  display: flex;
+  margin-top: 5%;
+}
+
+.bois-single-card h2 {
+  font-size: 2rem;
+}
+
+.bois-single-card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bois-single-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 1rem;
+  background-color: #446084;
+  margin: 10%;
+  color: #ffffff;
+}
+
+section > p {
+  margin-top: 10px;
+}
